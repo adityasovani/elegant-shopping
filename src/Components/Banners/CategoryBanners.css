@@ -1,0 +1,35 @@
+.category-banner-image {
+    max-width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.banner-title {
+    color: var(--neutral-07100, #141718);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Headline 5 */
+    font-family: Poppins;
+    font-size: 2.0rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.375rem;
+    /* 111.765% */
+    letter-spacing: -0.0375rem;
+}
+
+.shop-now-link {
+    color: var(--neutral-07100, #141718);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Button S */
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem;
+    letter-spacing: -0.025rem;
+    cursor: pointer;
+    text-underline-offset: 0.2rem;
+    text-decoration: underline;
+}

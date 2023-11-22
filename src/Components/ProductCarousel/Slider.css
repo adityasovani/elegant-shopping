@@ -1,0 +1,79 @@
+.card-container {
+    height: 20rem;
+}
+
+.card-img {
+    object-fit: contain;
+}
+
+.slider-container {
+    gap: 0.8rem;
+}
+
+.product-name {
+    color: var(--neutral-07100, #141718);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body 2 (Semi) */
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.625rem;
+    /* 162.5% */
+}
+
+.price {
+    color: var(--neutral-07100, #141718);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Body 2 (Semi) */
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.625rem;
+    /* 162.5% */
+}
+
+.tags {
+    margin-top: 1rem;
+    position: absolute;
+    margin-left: 0.5rem;
+}
+
+.new {
+    display: block;
+    padding: 0.25rem 0.875rem;
+    gap: 0.5rem;
+    border-radius: 0.25rem;
+    background: #FFF;
+
+    /* typography */
+    color: var(--neutral-07100, #141718);
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.discount {
+    display: flex;
+    padding: 0.25rem 0.875rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.25rem;
+    background: #38CB89;
+    width: 3.4rem;
+    height: 1.3rem;
+
+    /* typography */
+    color: var(--neutral-01100, #FEFEFE);
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
