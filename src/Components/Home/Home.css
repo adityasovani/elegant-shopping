@@ -47,3 +47,11 @@
         margin-top: 1rem;
     }
 }
+
+.page-block-container{
+    background: var(--neutral-02100, #F3F5F7);
+}
+
+.page-block-content{
+    margin-left: 1rem;
+}

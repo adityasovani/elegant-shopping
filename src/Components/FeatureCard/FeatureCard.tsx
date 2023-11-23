@@ -9,7 +9,7 @@ type Props = {
 
 const FeatureCard: React.FC<Props> = ({ image, title, caption }) => {
     return (
-        <div className='feature-card gap-2'>
+        <div className='feature-card h-100 gap-2'>
             <img src={image} alt={title} />
             <span className='title'>{title}</span>
             <span className='caption'>{caption}</span>

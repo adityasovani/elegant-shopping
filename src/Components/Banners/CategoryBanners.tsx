@@ -33,12 +33,7 @@ const CategoryBanners: React.FC = () => {
             <div className="col-md-6 col-sm-12">
                 <div className="d-flex flex-column" style={{ position: "absolute" }}>
                     <span className="banner-title">Bedroom</span>
-                    <div className="flex-row d-flex" style={{ gap: "0.1rem" }}>
-                        <span className="shop-now-link">Shop Now</span>
-                        <img
-                            src={ArrowRight}
-                            alt="->" />
-                    </div>
+                    {<ShopNow />}
                 </div>
                 <img
                     alt="banner"
@@ -94,6 +89,14 @@ const CategoryBanners: React.FC = () => {
         //     ))}
         // </div>
     )
-}
 
+}
+export const ShopNow = () => {
+    return <div className="flex-row d-flex" style={{ gap: "0.1rem" }}>
+        <span className="shop-now-link">Shop Now</span>
+        <img
+            src={ArrowRight}
+            alt="->" />
+    </div>;
+};
 export default CategoryBanners

@@ -4,7 +4,7 @@ import NotificationBar from '../Common/NotificationBar/NotificationBar';
 import Navbar from '../Navbar/Navbar';
 import { Carousel } from 'react-bootstrap';
 import CategoryBanners from '../Banners/CategoryBanners';
-import ProductCarousel from '../ProductCarousel/ProductCarousel';
+import ProductCarousel, { Header } from '../ProductCarousel/ProductCarousel';
 import FeatureCard from '../FeatureCard/FeatureCard';
 
 // icons / images
@@ -12,6 +12,8 @@ import freeShipping from '../../Assets/Images/freeshipping.svg';
 import moneyback from '../../Assets/Images/moneyback.svg';
 import secure from '../../Assets/Images/secure.svg';
 import callIcon from '../../Assets/Images/247.svg';
+import PageBanner from '../PageBanner/PageBanner';
+import ArticlesCarousel from '../ArticlesCarousel/ArticlesCarousel';
 
 const Home: React.FC = () => {
 
@@ -92,9 +94,19 @@ const Home: React.FC = () => {
                         ))
                     }
                 </div>
+            </div>
 
-                {/* page block */}
+            {/* page block */}
+            <div className="col-md-12 mb-4">
+                <PageBanner />
+            </div>
 
+            {/* Articles */}
+            <div className="d-flex w-75 flex-column">
+                <Header title='Articles' moreTitle='More Articles' />
+                <div className="mt-2">
+                    <ArticlesCarousel />
+                </div>
             </div>
         </div>
     )
