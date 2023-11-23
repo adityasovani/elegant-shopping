@@ -36,7 +36,7 @@ const CategoryBanners: React.FC = () => {
                     <div className="flex-row d-flex" style={{ gap: "0.1rem" }}>
                         <span className="shop-now-link">Shop Now</span>
                         <img
-                            src="/static/media/arrowRightBlack.ae19785318e3c101de2c3de1e7e1285c.svg"
+                            src={ArrowRight}
                             alt="->" />
                     </div>
                 </div>
@@ -54,9 +54,7 @@ const CategoryBanners: React.FC = () => {
                         <span className="banner-title">Living Room</span>
                         <div className="flex-row d-flex" style={{ gap: "0.1rem" }}>
                             <span className="shop-now-link">Shop Now</span>
-                            <img alt="->"
-                                src="/static/media/arrowRightBlack.ae19785318e3c101de2c3de1e7e1285c.svg"
-                            />
+                            <img alt="->" src={ArrowRight} />
                         </div>
                     </div>
                     <img alt="banner" className="category-banner-image"
@@ -70,7 +68,7 @@ const CategoryBanners: React.FC = () => {
                         <div className="flex-row d-flex" style={{ gap: "0.1rem" }}>
                             <span className="shop-now-link">Shop Now</span>
                             <img alt="->"
-                                src="/static/media/arrowRightBlack.ae19785318e3c101de2c3de1e7e1285c.svg"
+                                src={ArrowRight}
                             />
                         </div>
                     </div>
