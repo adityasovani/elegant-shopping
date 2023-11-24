@@ -14,6 +14,8 @@ import secure from '../../Assets/Images/secure.svg';
 import callIcon from '../../Assets/Images/247.svg';
 import PageBanner from '../PageBanner/PageBanner';
 import ArticlesCarousel from '../ArticlesCarousel/ArticlesCarousel';
+import NewsletterForm from '../NewsletterForm/NewsletterForm';
+import Footer from '../Footer/Footer';
 
 const Home: React.FC = () => {
 
@@ -104,9 +106,17 @@ const Home: React.FC = () => {
             {/* Articles */}
             <div className="d-flex w-75 flex-column">
                 <Header title='Articles' moreTitle='More Articles' />
-                <div className="mt-2">
+                <div className="mt-2 mb-2">
                     <ArticlesCarousel />
                 </div>
+            </div>
+            {/* Newsletter */}
+            <div className="col-12 mt-2">
+                <NewsletterForm />
+            </div>
+            {/* Footer */}
+            <div className="col-12 w-100">
+                <Footer />
             </div>
         </div>
     )

@@ -1,3 +1,21 @@
-.card-wrapper{
-    height: 15rem;
+.card-wrapper {
+    height: 50rem;
+    max-height: 20rem;
+    border: 0px !important;
+}
+
+.read-more {
+    color: var(--neutral-07100, #141718);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Button S */
+    font-family: Inter;
+    font-size: 0.9rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem;
+    /* 175% */
+    letter-spacing: -0.025rem;
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
 }

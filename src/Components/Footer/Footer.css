@@ -1,0 +1,94 @@
+.footer-container {
+    background: var(--neutral-07100, #141718);
+    height: 14.5rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.footer-title {
+    color: #FFF;
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+    /* 100% */
+}
+
+.footer-brand-separator {
+    width: 0.0645rem;
+    height: 1.5rem;
+    flex-shrink: 0;
+    background: var(--neutral-04100, #6C7275);
+}
+
+.footer-brand-caption {
+    color: var(--neutral-03100, #E8ECEF);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Caption 1 */
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.375rem;
+    /* 157.143% */
+}
+
+.footer-menu {
+    flex-direction: row;
+    gap: 1.5rem;
+    white-space: nowrap;
+}
+
+.footer-menu span {
+    color: var(--neutral-01100, #FEFEFE);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Caption 1 */
+    font-family: Inter;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.375rem;
+    /* 157.143% */
+}
+
+.bottom-bar {
+    border-top: 0.5px solid var(--neutral-04100, #6C7275);
+    width: 100%;
+    margin-top: 2.0rem;
+}
+
+.copyright {
+    color: var(--neutral-03100, #E8ECEF);
+
+    /* Caption 2 */
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25rem;
+    /* 166.667% */
+}
+
+.policy {
+    color: var(--neutral-01100, #FEFEFE);
+
+    /* Caption 2 (Bold) */
+    font-family: Poppins;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25rem;
+    /* 166.667% */
+}
+
+.legal,
+.social {
+    cursor: pointer;
+}
